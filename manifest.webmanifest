@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "数形 · 数学课堂",
+  "short_name": "数形",
+  "description": "函数与立体几何的触控课堂工具，课程保存在本机。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

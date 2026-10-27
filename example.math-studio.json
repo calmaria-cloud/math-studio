@@ -1,0 +1,2537 @@
+{
+  "format": "math-studio-lesson",
+  "version": 2,
+  "title": "示例课 · 函数变化、导数与截面",
+  "activeId": "5a684344-0693-47f6-bfdb-8d88ed548689",
+  "scenes": [
+    {
+      "id": "5a684344-0693-47f6-bfdb-8d88ed548689",
+      "title": "正弦函数：振幅与周期",
+      "notes": "每一步只改变一个参数；可临时播放 a，返回本步继续比较。",
+      "original": {
+        "tab": "graph2d",
+        "graph2d": {
+          "functions": [
+            {
+              "expr": "a*sin(w*x+p)",
+              "visible": true,
+              "color": "#2563eb"
+            }
+          ],
+          "selected": 0,
+          "params": {
+            "a": {
+              "value": 1,
+              "min": -3,
+              "max": 3
+            },
+            "b": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "c": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "k": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "m": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "n": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "w": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "p": {
+              "value": 0,
+              "min": -5,
+              "max": 5
+            }
+          },
+          "view": {
+            "cx": 0,
+            "cy": 0,
+            "scale": 47.2,
+            "initialized": true
+          },
+          "options": {
+            "piTicks": false,
+            "keyPoints": true,
+            "derivative": false,
+            "grid": true,
+            "legend": true
+          },
+          "animation": {
+            "param": "a",
+            "speed": 0.5,
+            "step": 0.1,
+            "direction": 1
+          },
+          "probe": {
+            "on": false,
+            "x": 1,
+            "tangent": true,
+            "slope": true,
+            "derivativePoint": true
+          }
+        },
+        "solid3d": null
+      },
+      "live": {
+        "tab": "graph2d",
+        "graph2d": {
+          "functions": [
+            {
+              "expr": "a*sin(w*x+p)",
+              "visible": true,
+              "color": "#2563eb"
+            }
+          ],
+          "selected": 0,
+          "params": {
+            "a": {
+              "value": 1,
+              "min": -3,
+              "max": 3
+            },
+            "b": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "c": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "k": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "m": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "n": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "w": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "p": {
+              "value": 0,
+              "min": -5,
+              "max": 5
+            }
+          },
+          "view": {
+            "cx": 0,
+            "cy": 0,
+            "scale": 47.2,
+            "initialized": true
+          },
+          "options": {
+            "piTicks": false,
+            "keyPoints": true,
+            "derivative": false,
+            "grid": true,
+            "legend": true
+          },
+          "animation": {
+            "param": "a",
+            "speed": 0.5,
+            "step": 0.1,
+            "direction": 1
+          },
+          "probe": {
+            "on": false,
+            "x": 1,
+            "tangent": true,
+            "slope": true,
+            "derivativePoint": true
+          }
+        },
+        "solid3d": null
+      },
+      "steps": [
+        {
+          "id": "28985283-01b6-4600-9e99-d5c05110ae69",
+          "title": "原图：a = 1，ω = 1",
+          "notes": "先读出原图的振幅和周期。",
+          "original": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "a*sin(w*x+p)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -3,
+                  "max": 3
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 0,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 0.5,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          },
+          "live": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "a*sin(w*x+p)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -3,
+                  "max": 3
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 0,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 0.5,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          }
+        },
+        {
+          "id": "b0c3f028-b074-42b2-8aad-451da571f136",
+          "title": "振幅：只把 a 改为 2",
+          "notes": "固定 ω、φ，比较振幅；可选择 a 播放。",
+          "original": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "a*sin(w*x+p)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 2,
+                  "min": -3,
+                  "max": 3
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 0,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 0.5,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          },
+          "live": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "a*sin(w*x+p)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 2,
+                  "min": -3,
+                  "max": 3
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 0,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 0.5,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          }
+        },
+        {
+          "id": "71b60b10-7832-4f5a-b19f-7530b224a2b2",
+          "title": "周期：再把 ω 改为 2",
+          "notes": "保持 a = 2，观察周期如何变化。",
+          "original": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "a*sin(w*x+p)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 2,
+                  "min": -3,
+                  "max": 3
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 2,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 0,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 0.5,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          },
+          "live": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "a*sin(w*x+p)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 2,
+                  "min": -3,
+                  "max": 3
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 2,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 0,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 0.5,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          }
+        }
+      ],
+      "activeStepId": null,
+      "presenting": false
+    },
+    {
+      "id": "b191f1cb-3009-4586-a4d7-9588b88b300f",
+      "title": "导数：切线斜率与 Q 点",
+      "notes": "拖动 P 观察斜率，再显示导数图。斜率为数值近似。",
+      "original": {
+        "tab": "graph2d",
+        "graph2d": {
+          "functions": [
+            {
+              "expr": "x^2",
+              "visible": true,
+              "color": "#2563eb"
+            }
+          ],
+          "selected": 0,
+          "params": {
+            "a": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "b": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "c": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "k": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "m": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "n": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "w": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "p": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            }
+          },
+          "view": {
+            "cx": 0,
+            "cy": 0,
+            "scale": 47.2,
+            "initialized": true
+          },
+          "options": {
+            "piTicks": false,
+            "keyPoints": true,
+            "derivative": false,
+            "grid": true,
+            "legend": true
+          },
+          "animation": {
+            "param": "a",
+            "speed": 1,
+            "step": 0.1,
+            "direction": 1
+          },
+          "probe": {
+            "on": false,
+            "x": 1,
+            "tangent": true,
+            "slope": true,
+            "derivativePoint": true
+          }
+        },
+        "solid3d": null
+      },
+      "live": {
+        "tab": "graph2d",
+        "graph2d": {
+          "functions": [
+            {
+              "expr": "x^2",
+              "visible": true,
+              "color": "#2563eb"
+            }
+          ],
+          "selected": 0,
+          "params": {
+            "a": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "b": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "c": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "k": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "m": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "n": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "w": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "p": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            }
+          },
+          "view": {
+            "cx": 0,
+            "cy": 0,
+            "scale": 47.2,
+            "initialized": true
+          },
+          "options": {
+            "piTicks": false,
+            "keyPoints": true,
+            "derivative": false,
+            "grid": true,
+            "legend": true
+          },
+          "animation": {
+            "param": "a",
+            "speed": 1,
+            "step": 0.1,
+            "direction": 1
+          },
+          "probe": {
+            "on": false,
+            "x": 1,
+            "tangent": true,
+            "slope": true,
+            "derivativePoint": true
+          }
+        },
+        "solid3d": null
+      },
+      "steps": [
+        {
+          "id": "93c4aea8-b644-4b9d-b315-26bc853f1077",
+          "title": "先观察原函数",
+          "notes": "先猜 x = 1 处的切线斜率。",
+          "original": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "x^2",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          },
+          "live": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "x^2",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          }
+        },
+        {
+          "id": "f724e93c-fb73-45f6-b5db-edbd44d6f185",
+          "title": "拖动 P，观察切线与斜率",
+          "notes": "拖动 P 比较正负斜率，暂不显示导数图。",
+          "original": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "x^2",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": true,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          },
+          "live": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "x^2",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": true,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          }
+        },
+        {
+          "id": "b5a2cc4e-a5f2-4b00-b5c2-e80f4c4c0628",
+          "title": "显示导数图和对应点 Q",
+          "notes": "对应点 Q 的纵坐标就是 P 处的斜率。",
+          "original": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "x^2",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": true,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": true,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          },
+          "live": {
+            "tab": "graph2d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "x^2",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": true,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": true,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": null
+          }
+        }
+      ],
+      "activeStepId": null,
+      "presenting": false
+    },
+    {
+      "id": "4747eb88-62f5-4300-9d7b-a542d2865172",
+      "title": "正方体：棱上点与截面",
+      "notes": "先猜截面形状，再移动 P1；观察棱上比例与面积。",
+      "original": {
+        "tab": "solid3d",
+        "graph2d": {
+          "functions": [
+            {
+              "expr": "sin(x)",
+              "visible": true,
+              "color": "#2563eb"
+            }
+          ],
+          "selected": 0,
+          "params": {
+            "a": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "b": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "c": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "k": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "m": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "n": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "w": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "p": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            }
+          },
+          "view": {
+            "cx": 0,
+            "cy": 0,
+            "scale": 47.2,
+            "initialized": true
+          },
+          "options": {
+            "piTicks": false,
+            "keyPoints": true,
+            "derivative": false,
+            "grid": true,
+            "legend": true
+          },
+          "animation": {
+            "param": "a",
+            "speed": 1,
+            "step": 0.1,
+            "direction": 1
+          },
+          "probe": {
+            "on": false,
+            "x": 1,
+            "tangent": true,
+            "slope": true,
+            "derivativePoint": true
+          }
+        },
+        "solid3d": {
+          "solidId": "cube",
+          "params": {
+            "a": 2
+          },
+          "display": {
+            "labels": true,
+            "hiddenEdges": true,
+            "faceFill": true,
+            "wireframe": false,
+            "axes": true,
+            "grid": true,
+            "autoRotate": false,
+            "opacity": 0.14
+          },
+          "view": "oblique",
+          "section": {
+            "on": false,
+            "mode": "three",
+            "points": [
+              "A",
+              "C",
+              "B₁"
+            ],
+            "ratios": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "nextPick": 0,
+            "az": 28,
+            "el": 18,
+            "offset": 0,
+            "onlySection": false
+          },
+          "measure": {
+            "mode": "distance",
+            "p1": "A",
+            "p2": "D₁",
+            "e1": "AB",
+            "e2": "BC",
+            "line": "AB",
+            "face": "平面BCC₁B₁"
+          },
+          "spheres": {
+            "circum": false,
+            "insphere": false
+          },
+          "camera": {
+            "position": [
+              3.973523939546463,
+              3.7593916246850423,
+              6.346600736775599
+            ],
+            "target": [
+              0,
+              1,
+              0
+            ],
+            "view": "oblique"
+          }
+        }
+      },
+      "live": {
+        "tab": "solid3d",
+        "graph2d": {
+          "functions": [
+            {
+              "expr": "sin(x)",
+              "visible": true,
+              "color": "#2563eb"
+            }
+          ],
+          "selected": 0,
+          "params": {
+            "a": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "b": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "c": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "k": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "m": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "n": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "w": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            },
+            "p": {
+              "value": 1,
+              "min": -5,
+              "max": 5
+            }
+          },
+          "view": {
+            "cx": 0,
+            "cy": 0,
+            "scale": 47.2,
+            "initialized": true
+          },
+          "options": {
+            "piTicks": false,
+            "keyPoints": true,
+            "derivative": false,
+            "grid": true,
+            "legend": true
+          },
+          "animation": {
+            "param": "a",
+            "speed": 1,
+            "step": 0.1,
+            "direction": 1
+          },
+          "probe": {
+            "on": false,
+            "x": 1,
+            "tangent": true,
+            "slope": true,
+            "derivativePoint": true
+          }
+        },
+        "solid3d": {
+          "solidId": "cube",
+          "params": {
+            "a": 2
+          },
+          "display": {
+            "labels": true,
+            "hiddenEdges": true,
+            "faceFill": true,
+            "wireframe": false,
+            "axes": true,
+            "grid": true,
+            "autoRotate": false,
+            "opacity": 0.14
+          },
+          "view": "oblique",
+          "section": {
+            "on": false,
+            "mode": "three",
+            "points": [
+              "A",
+              "C",
+              "B₁"
+            ],
+            "ratios": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "nextPick": 0,
+            "az": 28,
+            "el": 18,
+            "offset": 0,
+            "onlySection": false
+          },
+          "measure": {
+            "mode": "distance",
+            "p1": "A",
+            "p2": "D₁",
+            "e1": "AB",
+            "e2": "BC",
+            "line": "AB",
+            "face": "平面BCC₁B₁"
+          },
+          "spheres": {
+            "circum": false,
+            "insphere": false
+          },
+          "camera": {
+            "position": [
+              3.973523939546463,
+              3.7593916246850423,
+              6.346600736775599
+            ],
+            "target": [
+              0,
+              1,
+              0
+            ],
+            "view": "oblique"
+          }
+        }
+      },
+      "steps": [
+        {
+          "id": "e9cb9fab-b36d-4e0b-839a-131a405282de",
+          "title": "先观察正方体",
+          "notes": "找出从 A 出发的三条棱。",
+          "original": {
+            "tab": "solid3d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "sin(x)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": {
+              "solidId": "cube",
+              "params": {
+                "a": 2
+              },
+              "display": {
+                "labels": true,
+                "hiddenEdges": true,
+                "faceFill": true,
+                "wireframe": false,
+                "axes": true,
+                "grid": true,
+                "autoRotate": false,
+                "opacity": 0.14
+              },
+              "view": "oblique",
+              "section": {
+                "on": false,
+                "mode": "three",
+                "points": [
+                  "A",
+                  "C",
+                  "B₁"
+                ],
+                "ratios": [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "nextPick": 0,
+                "az": 28,
+                "el": 18,
+                "offset": 0,
+                "onlySection": false
+              },
+              "measure": {
+                "mode": "distance",
+                "p1": "A",
+                "p2": "D₁",
+                "e1": "AB",
+                "e2": "BC",
+                "line": "AB",
+                "face": "平面BCC₁B₁"
+              },
+              "spheres": {
+                "circum": false,
+                "insphere": false
+              },
+              "camera": {
+                "position": [
+                  3.973523939546463,
+                  3.7593916246850423,
+                  6.346600736775599
+                ],
+                "target": [
+                  0,
+                  1,
+                  0
+                ],
+                "view": "oblique"
+              }
+            }
+          },
+          "live": {
+            "tab": "solid3d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "sin(x)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": {
+              "solidId": "cube",
+              "params": {
+                "a": 2
+              },
+              "display": {
+                "labels": true,
+                "hiddenEdges": true,
+                "faceFill": true,
+                "wireframe": false,
+                "axes": true,
+                "grid": true,
+                "autoRotate": false,
+                "opacity": 0.14
+              },
+              "view": "oblique",
+              "section": {
+                "on": false,
+                "mode": "three",
+                "points": [
+                  "A",
+                  "C",
+                  "B₁"
+                ],
+                "ratios": [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "nextPick": 0,
+                "az": 28,
+                "el": 18,
+                "offset": 0,
+                "onlySection": false
+              },
+              "measure": {
+                "mode": "distance",
+                "p1": "A",
+                "p2": "D₁",
+                "e1": "AB",
+                "e2": "BC",
+                "line": "AB",
+                "face": "平面BCC₁B₁"
+              },
+              "spheres": {
+                "circum": false,
+                "insphere": false
+              },
+              "camera": {
+                "position": [
+                  3.973523939546463,
+                  3.7593916246850423,
+                  6.346600736775599
+                ],
+                "target": [
+                  0,
+                  1,
+                  0
+                ],
+                "view": "oblique"
+              }
+            }
+          }
+        },
+        {
+          "id": "204d15d4-598c-4581-b341-bc6db4b79a01",
+          "title": "连接三条棱的中点",
+          "notes": "三个比例均为 0.5，先猜截面是什么三角形。",
+          "original": {
+            "tab": "solid3d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "sin(x)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": {
+              "solidId": "cube",
+              "params": {
+                "a": 2
+              },
+              "display": {
+                "labels": true,
+                "hiddenEdges": true,
+                "faceFill": true,
+                "wireframe": false,
+                "axes": true,
+                "grid": true,
+                "autoRotate": false,
+                "opacity": 0.14
+              },
+              "view": "oblique",
+              "section": {
+                "on": true,
+                "mode": "three",
+                "points": [
+                  "@AB",
+                  "@AD",
+                  "@AA₁"
+                ],
+                "ratios": [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "nextPick": 0,
+                "az": 28,
+                "el": 18,
+                "offset": 0,
+                "onlySection": false
+              },
+              "measure": {
+                "mode": "distance",
+                "p1": "A",
+                "p2": "D₁",
+                "e1": "AB",
+                "e2": "BC",
+                "line": "AB",
+                "face": "平面BCC₁B₁"
+              },
+              "spheres": {
+                "circum": false,
+                "insphere": false
+              },
+              "camera": {
+                "position": [
+                  3.973523939546463,
+                  3.7593916246850423,
+                  6.346600736775599
+                ],
+                "target": [
+                  0,
+                  1,
+                  0
+                ],
+                "view": "oblique"
+              }
+            }
+          },
+          "live": {
+            "tab": "solid3d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "sin(x)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": {
+              "solidId": "cube",
+              "params": {
+                "a": 2
+              },
+              "display": {
+                "labels": true,
+                "hiddenEdges": true,
+                "faceFill": true,
+                "wireframe": false,
+                "axes": true,
+                "grid": true,
+                "autoRotate": false,
+                "opacity": 0.14
+              },
+              "view": "oblique",
+              "section": {
+                "on": true,
+                "mode": "three",
+                "points": [
+                  "@AB",
+                  "@AD",
+                  "@AA₁"
+                ],
+                "ratios": [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "nextPick": 0,
+                "az": 28,
+                "el": 18,
+                "offset": 0,
+                "onlySection": false
+              },
+              "measure": {
+                "mode": "distance",
+                "p1": "A",
+                "p2": "D₁",
+                "e1": "AB",
+                "e2": "BC",
+                "line": "AB",
+                "face": "平面BCC₁B₁"
+              },
+              "spheres": {
+                "circum": false,
+                "insphere": false
+              },
+              "camera": {
+                "position": [
+                  3.973523939546463,
+                  3.7593916246850423,
+                  6.346600736775599
+                ],
+                "target": [
+                  0,
+                  1,
+                  0
+                ],
+                "view": "oblique"
+              }
+            }
+          }
+        },
+        {
+          "id": "6b222926-b502-4c7a-89da-ed86e2458211",
+          "title": "移动 P1，观察截面变化",
+          "notes": "P1 比例改为 0.75；尝试拖回中点比较。",
+          "original": {
+            "tab": "solid3d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "sin(x)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": {
+              "solidId": "cube",
+              "params": {
+                "a": 2
+              },
+              "display": {
+                "labels": true,
+                "hiddenEdges": true,
+                "faceFill": true,
+                "wireframe": false,
+                "axes": true,
+                "grid": true,
+                "autoRotate": false,
+                "opacity": 0.14
+              },
+              "view": "oblique",
+              "section": {
+                "on": true,
+                "mode": "three",
+                "points": [
+                  "@AB",
+                  "@AD",
+                  "@AA₁"
+                ],
+                "ratios": [
+                  0.75,
+                  0.5,
+                  0.5
+                ],
+                "nextPick": 0,
+                "az": 28,
+                "el": 18,
+                "offset": 0,
+                "onlySection": false
+              },
+              "measure": {
+                "mode": "distance",
+                "p1": "A",
+                "p2": "D₁",
+                "e1": "AB",
+                "e2": "BC",
+                "line": "AB",
+                "face": "平面BCC₁B₁"
+              },
+              "spheres": {
+                "circum": false,
+                "insphere": false
+              },
+              "camera": {
+                "position": [
+                  3.973523939546463,
+                  3.7593916246850423,
+                  6.346600736775599
+                ],
+                "target": [
+                  0,
+                  1,
+                  0
+                ],
+                "view": "oblique"
+              }
+            }
+          },
+          "live": {
+            "tab": "solid3d",
+            "graph2d": {
+              "functions": [
+                {
+                  "expr": "sin(x)",
+                  "visible": true,
+                  "color": "#2563eb"
+                }
+              ],
+              "selected": 0,
+              "params": {
+                "a": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "b": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "c": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "k": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "m": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "n": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "w": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                },
+                "p": {
+                  "value": 1,
+                  "min": -5,
+                  "max": 5
+                }
+              },
+              "view": {
+                "cx": 0,
+                "cy": 0,
+                "scale": 47.2,
+                "initialized": true
+              },
+              "options": {
+                "piTicks": false,
+                "keyPoints": true,
+                "derivative": false,
+                "grid": true,
+                "legend": true
+              },
+              "animation": {
+                "param": "a",
+                "speed": 1,
+                "step": 0.1,
+                "direction": 1
+              },
+              "probe": {
+                "on": false,
+                "x": 1,
+                "tangent": true,
+                "slope": true,
+                "derivativePoint": true
+              }
+            },
+            "solid3d": {
+              "solidId": "cube",
+              "params": {
+                "a": 2
+              },
+              "display": {
+                "labels": true,
+                "hiddenEdges": true,
+                "faceFill": true,
+                "wireframe": false,
+                "axes": true,
+                "grid": true,
+                "autoRotate": false,
+                "opacity": 0.14
+              },
+              "view": "oblique",
+              "section": {
+                "on": true,
+                "mode": "three",
+                "points": [
+                  "@AB",
+                  "@AD",
+                  "@AA₁"
+                ],
+                "ratios": [
+                  0.75,
+                  0.5,
+                  0.5
+                ],
+                "nextPick": 0,
+                "az": 28,
+                "el": 18,
+                "offset": 0,
+                "onlySection": false
+              },
+              "measure": {
+                "mode": "distance",
+                "p1": "A",
+                "p2": "D₁",
+                "e1": "AB",
+                "e2": "BC",
+                "line": "AB",
+                "face": "平面BCC₁B₁"
+              },
+              "spheres": {
+                "circum": false,
+                "insphere": false
+              },
+              "camera": {
+                "position": [
+                  3.973523939546463,
+                  3.7593916246850423,
+                  6.346600736775599
+                ],
+                "target": [
+                  0,
+                  1,
+                  0
+                ],
+                "view": "oblique"
+              }
+            }
+          }
+        }
+      ],
+      "activeStepId": null,
+      "presenting": false
+    }
+  ],
+  "trash": []
+}
